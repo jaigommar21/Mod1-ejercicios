@@ -24,6 +24,10 @@ public class ClaseConMetodosNoEstaticos {
 		int suma = app.retornarSuma(ope1,ope2);
 		System.out.println("La suma es " + suma);
 		
+		//
+		System.out.println("la resta es: " + app.retornarResta(ope1, ope2));
+		System.out.println("el signo es: " + app.retornarSignoDeResta(ope1, ope2));
+
 	}
 
 	/**
@@ -54,7 +58,24 @@ public class ClaseConMetodosNoEstaticos {
 	// Implementar un metodo que imprima 
 	// la resta de dos numero y usarlo
 
+	public int retornarResta(int a, int b) {
+		return a - b;
+	}
 	
+	
+
 	// Implementar un metodo  que imprima
 	// si la resta es positiva o negativa.
+	public String retornarSignoDeResta(int a, int b) {
+		String resultado = "";
+		if (a - b > 0) {
+			resultado= "positivo";
+		} else if(a - b < 0) {
+			resultado = "negativo";
+		} else {
+			resultado = "[sin signo]";
+		}
+		return resultado;
+	}
+
 }
