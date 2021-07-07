@@ -1,4 +1,4 @@
-package pe.edu.tecsup.poo.metodos;
+package pe.edu.tecsup.poo.metodos.caso1;
 
 /**
  *  Usando metodos estaticos
