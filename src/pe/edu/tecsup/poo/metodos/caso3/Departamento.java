@@ -40,4 +40,7 @@ public class Departamento {
 		this.nroPuerta = nroPuerta;
 	}
 	
+	public double calcularArea() {
+		return getAncho() * getLargo();
+	}
 }

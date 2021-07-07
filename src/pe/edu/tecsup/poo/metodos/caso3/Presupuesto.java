@@ -9,9 +9,26 @@ package pe.edu.tecsup.poo.metodos.caso3;
 
 public class Presupuesto {
 
+	public static double VALOR_METRO = 4000;
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Define variables
+		Departamento depa = new Departamento();
+		double area;
+		double precioDepartamento;
 
+		// Inicializa valores del dpto.
+		depa.setAncho(6);
+		depa.setLargo(15);
+		
+		// Calcula el area
+		area = depa.calcularArea();
+		
+		// Calcula el precio
+		precioDepartamento = area * VALOR_METRO;
+
+		// Muestra resultados	
+		System.out.println(String.format("El precio del Departamento es S/ %.2f", precioDepartamento));
 	}
 
 }
