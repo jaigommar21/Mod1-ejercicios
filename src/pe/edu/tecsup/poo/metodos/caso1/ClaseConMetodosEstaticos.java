@@ -20,6 +20,8 @@ public class ClaseConMetodosEstaticos {
 		int suma = retornarSuma(ope1,ope2);
 		System.out.println("La suma es " + suma);
 		
+		int restaR = retornarResta(ope1,ope2);	
+		System.out.println("La resta es " + restaR);
 	}
 
 	/**
@@ -71,7 +73,11 @@ public class ClaseConMetodosEstaticos {
 
 	// Implementar un metodo para retornar la resta
 	// de dos numeros
-	
+	public static int retornarResta(int a, int b) {
+		int resta = a - b ;
+		return resta ;
+		
+	}
 	
 	// Implementar un metodo para retornar el signo
 	// ("positivo" o "negativo") de una resta
