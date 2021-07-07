@@ -22,6 +22,11 @@ public class ClaseConMetodosEstaticos {
 		
 		int restaR = retornarResta(ope1,ope2);	
 		System.out.println("La resta es " + restaR);
+	
+		String signo = retornarSignoDeResta(ope1, ope2);
+		System.out.println("el signo es: " + signo);
+		
+	
 	}
 
 	/**
@@ -74,12 +79,23 @@ public class ClaseConMetodosEstaticos {
 	// Implementar un metodo para retornar la resta
 	// de dos numeros
 	public static int retornarResta(int a, int b) {
-		int resta = a - b ;
-		return resta ;
+		//int resta = a - b ;
+		//return resta ;
+		return a - b;
 		
 	}
 	
 	// Implementar un metodo para retornar el signo
 	// ("positivo" o "negativo") de una resta
-
+	public static String retornarSignoDeResta(int a, int b) {
+		String resultado = "";
+		if (a - b > 0) {
+			resultado= "positivo";
+		} else if(a - b < 0) {
+			resultado = "negativo";
+		} else {
+			resultado = "[sin signo]";
+		}
+		return resultado;
+	}
 }
