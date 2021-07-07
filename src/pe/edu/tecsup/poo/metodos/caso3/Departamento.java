@@ -7,19 +7,29 @@ public class Departamento {
 	private int nroPiso;
 	private String nroPuerta;
 
-	int precio;
-
 	
 	//
 	public Departamento() {
 
 	}
-	public Departamento(int largo, int ancho, int precio) {
-		super();
+	
+	public Departamento(double largo, double ancho) {
 		this.largo = largo;
 		this.ancho = ancho;
-		this.precio = precio;
 	}
+	
+	public Departamento(double largo) {
+		this.largo = largo;
+	}
+	
+	
+	public Departamento(double largo, double ancho, int nroPiso, String nroPuerta) {
+		this.largo = largo;
+		this.ancho = ancho;
+		this.nroPiso = nroPiso;
+		this.nroPuerta = nroPuerta;
+	}
+	
 	public void info() {
 		System.out.print("El ancho del departamente es: "+ancho+" y el largo es "+largo);
 	}

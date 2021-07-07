@@ -13,13 +13,18 @@ public class Presupuesto {
 	
 	public static void main(String[] args) {
 		// Define variables
-		Departamento depa = new Departamento();
 		double area;
 		double precioDepartamento;
 
-		// Inicializa valores del dpto.
+		/*
+		// 1.- Instancia la clase
+		Departamento depa = new Departamento();
+		// 2.- Inicializa valores del dpto.
 		depa.setAncho(6);
 		depa.setLargo(15);
+		*/
+		double ancho = 6;
+		Departamento depa = new Departamento(6,15);
 		
 		// Calcula el area
 		area = depa.calcularArea();
