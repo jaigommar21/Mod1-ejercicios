@@ -9,10 +9,7 @@ public class Departamento {
 	
 	//
 	public Departamento() {
-		this.largo=10.2;
-		this.ancho=5.5;
-		this.nroPiso= 4;
-		this.nroPuerta="10";
+
 	}
 	
 	public void info() {
