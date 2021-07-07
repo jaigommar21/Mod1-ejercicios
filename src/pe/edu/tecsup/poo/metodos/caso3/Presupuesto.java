@@ -8,8 +8,8 @@ package pe.edu.tecsup.poo.metodos.caso3;
 //             metro cuadrado esta 4000 soles
 
 public class Presupuesto {
-	/*
-	public static double VALOR_METRO = 4000;
+	
+	public static double VALOR_METRO_2 = 4000;
 	
 	public static void main(String[] args) {
 		// Define variables
@@ -25,12 +25,13 @@ public class Presupuesto {
 		area = depa.calcularArea();
 		
 		// Calcula el precio
-		precioDepartamento = area * VALOR_METRO;
+		precioDepartamento = area * VALOR_METRO_2;
 
 		// Muestra resultados	
 		System.out.println(String.format("El precio del Departamento es S/ %.2f", precioDepartamento));
 	}
-	*/
+	
+	/*
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Departamento dpto = new Departamento(0, 0, 0);
@@ -42,5 +43,5 @@ public class Presupuesto {
 		int pintar = dpto.pintar(a, b);
 		System.out.println("El precio es " + pintar* c);
 		
-	}
+	}*/
 }
