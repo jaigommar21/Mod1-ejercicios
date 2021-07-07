@@ -6,12 +6,20 @@ public class Departamento {
 	private double ancho;
 	private int nroPiso;
 	private String nroPuerta;
+
+	int precio;
+
 	
 	//
 	public Departamento() {
 
 	}
-	
+	public Departamento(int largo, int ancho, int precio) {
+		super();
+		this.largo = largo;
+		this.ancho = ancho;
+		this.precio = precio;
+	}
 	public void info() {
 		System.out.print("El ancho del departamente es: "+ancho+" y el largo es "+largo);
 	}
@@ -42,5 +50,12 @@ public class Departamento {
 	
 	public double calcularArea() {
 		return getAncho() * getLargo();
+	}
+	
+	public int pintar(int a, int b) {
+		int pintar = a * b ;
+		System.out.println("El area es de " + pintar);
+		return pintar;
+		
 	}
 }
