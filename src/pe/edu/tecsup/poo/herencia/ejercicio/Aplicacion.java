@@ -12,6 +12,7 @@ public class Aplicacion {
 		// TODO Auto-generated method stub
 
 		Auto auto = new Auto();
+		//auto.marca = "Toyota";
 		auto.setMarca("Toyota");
 		auto.informacion();
 		
@@ -20,6 +21,7 @@ public class Aplicacion {
 		camioneta.informacion();
 
 		Auto suv = new SUV();
+		suv.setMarca("Chevrolet");
 		suv.informacion();
 	}
 

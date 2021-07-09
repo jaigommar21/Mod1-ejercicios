@@ -2,7 +2,8 @@ package pe.edu.tecsup.poo.herencia.ejercicio;
 
 public class Auto {
 
-	private String marca;
+	private String marca; // 1.- No puede ser accedida desde los hijos 
+	                      // 2.- No puede ser accedida desde una instancia
 	private String anho;
 	
 	public void informacion() {
