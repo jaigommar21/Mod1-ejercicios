@@ -26,7 +26,7 @@ public class Aplicacion {
 		suv.anho = "2020";
 		suv.informacion();
 		
-		SUVEquipoFull suvFull = new SUVEquipoFull();
+		SUVEquipoFull suvFull = new SUVEquipoFull(); // new SUVEquipoFullPirata();
 		suvFull.setMarca("Critroen");
 		suvFull.setAnho("2019");
 		suvFull.extraGarantia = "4";
