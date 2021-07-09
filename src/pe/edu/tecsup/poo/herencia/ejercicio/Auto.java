@@ -2,9 +2,18 @@ package pe.edu.tecsup.poo.herencia.ejercicio;
 
 public class Auto {
 
+	//public 
+	
 	private String marca; // 1.- No puede ser accedida desde los hijos 
 	                      // 2.- No puede ser accedida desde una instancia
-	private String anho;
+	protected String anho;  // 1.- las clases del mismo paquete pueden
+	                        //     acceder a los atributos/metodos protected.
+	                        // 2.- Las clases hijas pueden acceder a los 
+	                        //     atributos/metodos protected.
+	                        // 3.- Clases de otros paquetes no pueden acceder 
+	                        //     a los atributos/metodos protected
+	// default
+	
 	
 	public void informacion() {
 		System.out.println("Auto generico con marca : " + this.marca );

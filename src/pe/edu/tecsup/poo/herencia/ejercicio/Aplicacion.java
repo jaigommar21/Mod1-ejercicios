@@ -22,7 +22,8 @@ public class Aplicacion {
 
 		Auto suv = new SUV();
 		suv.setMarca("Chevrolet");
-		suv.setAnho("2020");
+		//suv.setAnho("2020");
+		suv.anho = "2020";
 		suv.informacion();
 	}
 
