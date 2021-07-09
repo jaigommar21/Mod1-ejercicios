@@ -16,7 +16,9 @@ public class Aplicacion {
 		
 		Auto camioneta = new Camioneta();
 		camioneta.informacion();
-		
+
+		Auto suv = new SUV();
+		suv.informacion();
 	}
 
 }
