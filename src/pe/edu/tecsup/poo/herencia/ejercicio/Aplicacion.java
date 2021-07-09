@@ -12,9 +12,11 @@ public class Aplicacion {
 		// TODO Auto-generated method stub
 
 		Auto auto = new Auto();
+		auto.setMarca("Toyota");
 		auto.informacion();
 		
 		Auto camioneta = new Camioneta();
+		camioneta.setMarca("Nissan");
 		camioneta.informacion();
 
 		Auto suv = new SUV();
