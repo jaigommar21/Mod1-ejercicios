@@ -17,6 +17,14 @@ public class Auto {
 	public void setMarca(String marca) {
 		this.marca = marca;
 	}
+
+	public String getAnho() {
+		return anho;
+	}
+
+	public void setAnho(String anho) {
+		this.anho = anho;
+	}
 	
 	
 	

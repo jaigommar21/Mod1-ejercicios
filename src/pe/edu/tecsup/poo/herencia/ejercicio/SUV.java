@@ -4,8 +4,10 @@ public class SUV extends Auto {
 
 	@Override
 	public void informacion() {
-		// TODO Auto-generated method stub
+		// Que imprimas la marca y el año
 		System.out.println("Auto de lujo con marca " + super.getMarca() );
+		System.out.println("Auto de lujo del año " + super.getAnho() );
+
 	}
 
 }
