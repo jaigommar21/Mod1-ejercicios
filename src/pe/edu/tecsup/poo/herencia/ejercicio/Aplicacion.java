@@ -14,6 +14,9 @@ public class Aplicacion {
 		Auto auto = new Auto();
 		auto.informacion();
 		
+		Auto camioneta = new Camioneta();
+		camioneta.informacion();
+		
 	}
 
 }
