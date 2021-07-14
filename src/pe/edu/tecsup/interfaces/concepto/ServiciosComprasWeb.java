@@ -17,8 +17,9 @@ public class ServiciosComprasWeb
 
 	@Override
 	public void realizarSeguimientoPedido() {
-		// TODO Auto-generated method stub
 		System.out.println("Realizar seguimiento de pedido de la web");
+		
 	}
+
 
 }
