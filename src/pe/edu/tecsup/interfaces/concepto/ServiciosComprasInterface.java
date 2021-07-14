@@ -1,6 +1,6 @@
 package pe.edu.tecsup.interfaces.concepto;
 
-public interface ServicioComprasInterface {
+public interface ServiciosComprasInterface {
 
 	// Definir comportamientos
 	public void realizarPedido();

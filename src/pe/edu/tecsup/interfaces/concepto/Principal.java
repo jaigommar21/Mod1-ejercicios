@@ -4,11 +4,11 @@ public class Principal {
 
 	public static void main(String[] args) {
 		
-		ServicioComprasInterface servicio = new ServiciosComprasWeb();
+		ServiciosComprasInterface servicios = new ServiciosComprasWeb();
 
-		servicio.realizarPedido();
+		servicios.realizarPedido();
 		
-		servicio.realizarPago();
+		servicios.realizarPago();
 
 	}
 
