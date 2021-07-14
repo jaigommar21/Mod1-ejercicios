@@ -1,6 +1,6 @@
 package pe.edu.tecsup.poo.herencia.ejercicio;
 
-public final class SUVEquipoFull extends SUV {
+public  class SUVEquipoFull extends SUV {
 	
 	protected String extraGarantia;
 
