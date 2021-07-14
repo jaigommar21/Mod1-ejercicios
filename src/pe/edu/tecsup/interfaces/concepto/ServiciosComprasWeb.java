@@ -1,7 +1,8 @@
 package pe.edu.tecsup.interfaces.concepto;
 
 public class ServiciosComprasWeb 
-	implements ServiciosComprasInterface {
+	implements ServiciosComprasInterface, 
+			   ServiciosDeliveryInterface {
 
 	@Override
 	public void realizarPedido() {
@@ -12,6 +13,12 @@ public class ServiciosComprasWeb
 	public void realizarPago() {
 		System.out.println("Realizar pago desde la web");
 
+	}
+
+	@Override
+	public void realizarSeguimientoPedido() {
+		// TODO Auto-generated method stub
+		System.out.println("Realizar seguimiento de pedido de la web");
 	}
 
 }
