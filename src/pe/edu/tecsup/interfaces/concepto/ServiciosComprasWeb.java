@@ -1,6 +1,7 @@
 package pe.edu.tecsup.interfaces.concepto;
 
-public class ServiciosComprasWeb implements ServicioComprasInterface {
+public class ServiciosComprasWeb 
+	implements ServicioComprasInterface {
 
 	@Override
 	public void realizarPedido() {
