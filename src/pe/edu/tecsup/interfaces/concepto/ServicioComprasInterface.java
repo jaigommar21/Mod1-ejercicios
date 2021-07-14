@@ -2,7 +2,7 @@ package pe.edu.tecsup.interfaces.concepto;
 
 public interface ServicioComprasInterface {
 
-	// Definicion de un comportamiento
+	// Definir comportamientos
 	public void realizarPedido();
 	
 	public void realizarPago();
