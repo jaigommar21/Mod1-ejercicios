@@ -5,14 +5,14 @@ public class Principal {
 	public static void main(String[] args) {
 		
 		// 
-		ServiciosComprasInterface servicios = new ServiciosComprasWeb();
+		ServiciosComprasInterface servicios = new ServiciosComprasMovil();
 
 		servicios.realizarPedido();
 		
 		servicios.realizarPago();
 
 		//
-		ServiciosDeliveryInterface servicios_2 = new ServiciosComprasWeb();
+		ServiciosDeliveryInterface servicios_2 = new ServiciosComprasMovil();
 		
 		servicios_2.realizarSeguimientoPedido();
 		
