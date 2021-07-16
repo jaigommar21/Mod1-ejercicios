@@ -1,6 +1,6 @@
 package pe.edu.tecsup.uitl.string;
 
-public class EjercioString {
+public class EjercicioString {
 		/*
 	    Crear un aplicacion para reemplazar la palabra
 	    "Jueves" por "Miercoles" , y luego imprimir
