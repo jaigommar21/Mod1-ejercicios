@@ -14,7 +14,7 @@ public class Persona {
 	protected String fechaNac;
 
 	
-	
+
 	public Persona() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -69,6 +69,12 @@ public class Persona {
 		this.fechaNac = fechaNac;
 	}
 
+	
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + ", dni=" + dni
+				+ ", fechaNac=" + fechaNac + "]";
+	}
 	
 	
 }
